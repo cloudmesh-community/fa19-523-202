@@ -5,3 +5,44 @@ owner:
   hid: "fa19-523-202"
   community: "423"
   semester: "fa19"
+
+
+# FA19 423 Final Project
+
+* Using the IAM off-line Handwritten Text Recognition dataset for implementing a deep learning project.
+* Neural Network created by TensorFlow (TF) and trained on the IAM dataset
+* I used the words images for testing and used the sentences for training
+* 3/4 of the words from the validation-set are correctly recognized and the character error rate is around 10%
+
+## Folder/File Explanation
+
+* i423_project_fa19-523-202_Limeng_Liu.ipynb: Main project file
+* i423_project_fa19-523-202_Limeng_Liu.pdf: Final Paper
+* Image Processing Testing.ipynb: Image processing for sentences samples
+* testing code.ipynb: Prelim try for projects with testing codes
+* forms_for_parsing.txt: Image forms for parsing
+* checkpoint2: Model epoches checkpoints
+* data_subset: dataset of 50 writters handwriting-database of text-line sentence
+* data-words: IAM dataset of words images and forms for parsing
+* Report(LaTex).zip: Latex file for the final report
+
+
+## References
+
+\[1\] [The IAM-database: an English sentence database for offline handwriting recognition](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
+
+\[2\] [Handwritten Text Recognition (OCR) with MXNet Gluon] (https://github.com/awslabs/handwritten-text-recognition-for-apache-mxnet)
+
+\[3\] [Handwritten Text Recognition with TensorFlow] (https://github.com/githubharald/SimpleHTR)
+
+\[4\] [IAM Handwriting Top50: Offline IAM Handwriting Dataset's subset, w.r.t. the 50 most common writers.] (https://www.kaggle.com/tejasreddy/iam-handwriting-top50)
+
+\[5\] [Build a Handwritten Text Recognition System using TensorFlow: A minimalistic neural network implementation which can be trained on the CPU] (https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5)
+
+\[6\] [English Deep Writer] (https://github.com/priya-dwivedi/Deep-Learning/blob/master/handwriting_recognition/English_Writer_Identification.ipynb)
+
+\[7\] [DeepWriter: A Multi-Stream Deep CNN for Text-independent Writer Identification] (https://arxiv.org/pdf/1606.06472.pdf)
+
+\[8\] [Handwriting recognition using Tensorflow and Keras] (https://towardsdatascience.com/handwriting-recognition-using-tensorflow-and-keras-819b36148fe5)
+
+\[9\] [Keras CNN training to recognize captcha: Get low loss and get low accuracy] (https://stackoverflow.com/questions/53993955/keras-cnn-training-to-recognize-captcha-get-low-loss-and-get-low-accuracy)
